@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+.container{    
+    width: 100%;
+    background-color: #fff;    
+    font-family: 'Roboto', sans-serif;
+
+    .banner{
+        width: 100%;
+        height: 60vh;
+        background-color: #000;   
+        background-repeat: no-repeat;
+        position: relative;
+        color: #fff;        
+        overflow: hidden;
+        
+        img{
+            opacity: 0.1;
+            width: 100%;
+            height: 60vh;
+            object-fit: cover;
+        }
+
+        .conteudo{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 20%;
+            top: 30%;            
+
+            h2{
+                font-size: 36px;
+            }
+
+            p{
+                width: 40%;
+                margin: 2em 0em;
+                font-size: 1rem;
+                line-height: 2em;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .stacks{
+        height: 60vh;
+        width: 100%;
+        background-color: #fff;
+        .conteudo{
+            width: 30%;
+            margin: 0 auto;
+            text-align: center;
+            
+            img{
+                width: 50%;
+                margin-top: 1em;
+            }
+
+            p{
+                font-size: 1.4rem;
+            }
+        }
+
+        .topicos{
+            width: 80%;
+            margin: 0 auto;                        
+            height: 60%;
+            margin-top: 2em 0em;
+            display: flex;
+            justify-content: space-evenly;            
+
+            .card{
+                text-align: center;                
+                width: 15%;
+                height: 80%;
+                margin: 4em 0em;
+                border-radius: 2px;
+                color: #fff;
+                font-weight: bold;
+                text-shadow: #000;
+                text-shadow: 1px 1px #000;
+
+
+                h3{
+                    margin-top: 2em;
+                }
+            }
+
+            .card:nth-child(1){ background-color: #f2eadf}
+            .card:nth-child(2){ background-color: #d9cdbf}
+            .card:nth-child(3){ background-color: #bfb0a3}
+            .card:nth-child(4){ background-color: #595147}
+            .card:nth-child(5){ background-color: #40372f}
+
+
+
+        }
+    }
+}
+

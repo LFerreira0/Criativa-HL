@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100&display=swap');
+.container-portifolio{
+    width: 100%;
+    height: 150vh;    
+    background-color: #40372f;    
+    margin-top: 4em;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;    
+
+    h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    h2{
+        margin-top: 2em;
+    }
+
+    .galeria{
+        width: 100%;
+        height: 150vh;        
+        margin-top: 2em;
+        display: flex;
+        justify-content: space-between;        
+
+        .scroll{
+            width: 19.2%;
+            height: 100%;            
+            display: flex;
+            flex-direction: column;
+
+            .carrosel{
+                height: 35%;
+                width: 100%;            
+                border-radius: 30px;        
+                background-position: center;
+                background-size: cover;   
+                margin-top: 1em;        
+            }
+        }
+        
+        .scroll:nth-child(1){ 
+            margin-top: 5em;
+            .carrosel:nth-child(1){
+                background-image: url(../../assets/images/1693337675269.jpeg);
+            }
+            .carrosel:nth-child(2){
+                background-image: url(../../assets/images/pexels-leeloo-thefirst-7600367.jpeg);
+            }
+        }     
+        .scroll:nth-child(2){ 
+            
+            .carrosel:nth-child(1){
+                background-image: url(../../assets/images/foto11.png);
+                background-position: bottom;
+            }
+            .carrosel:nth-child(2){
+                background-image: url(../../assets/images/1645039564283.jpeg);
+            }
+        }        
+        
+        .scroll:nth-child(3){ 
+            margin-top: 5em;
+            .carrosel:nth-child(1){
+                background-image: url(../../assets/images/foto8.png);
+            }
+            .carrosel:nth-child(2){
+                background-image: url(../../assets/images/10.png);
+                background-position: bottom;
+            }
+        }   
+
+        .scroll:nth-child(4){             
+            .carrosel:nth-child(1){
+                background-image: url(../../assets/images/perfume.jpeg);                                
+
+            }
+            .carrosel:nth-child(2){
+                background-image: url(../../assets/images/PhotoReal_a_dark_blue_circle_package_of_a_handcream_in_a_dark_3.jpeg);
+            }
+        }   
+
+        .scroll:nth-child(5){      
+            margin-top: 5em;       
+            .carrosel:nth-child(1){
+                background-image: url(../../assets/images/1692810994554.jpeg);
+            }
+            .carrosel:nth-child(2){
+                background-image: url(../../assets/images/PhotoReal_the_ad_of_an_orange_circle_package_of_a_hand_cream_i_1.jpeg);
+            }
+        }   
+    }
+}    
+       

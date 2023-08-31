@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+.container{
+    height: 70px;
+    width: 100%;
+    background-color: #d9cdbf;
+    flex-direction: row;    
+    position: fixed;
+    z-index: 99;
+
+    header{
+        width: 65%;
+        margin: 0 auto;        
+        display: flex;
+        gap: 5em;
+        font-family: black-gold;
+        letter-spacing: 3px;
+        .logo{
+            width: 20%;
+            img{
+                height: 70px;
+            }            
+        }
+
+        nav{
+            width: 50%;            
+            ul{                
+                list-style: none;
+                display: flex;                
+                height: 100%;
+                li{
+                    display: inline;                    
+                    height: 100%;
+                    line-height: 70px;
+                    padding: 0 1.5em;
+                    cursor: pointer;
+                }
+            }            
+        }
+    }
+}
+
