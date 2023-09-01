@@ -13,6 +13,19 @@
         margin: 0 auto;        
         display: flex;
         align-items: center;        
+
+    .conteudo{
+        position: relative;
+        .marca{
+            display: flex;
+            img{
+                height: 120px;
+                object-fit: cover;
+                object-position: center;
+                padding: .5em 1em;
+            }
+        }
+    }
         
         h1{
             margin-bottom: 1em;

@@ -14,10 +14,12 @@
         gap: 5em;
         font-family: black-gold;
         letter-spacing: 3px;
+        z-index: 9999;
         .logo{
             width: 20%;
             img{
-                height: 70px;
+                height: 100px;
+                padding: 1em;
             }            
         }
 
