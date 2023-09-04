@@ -70,6 +70,8 @@
                     position: relative;
                     left: 50%;
                     translate: -50%;
+                    width: 100%;
+                    border-radius: 30px;
                 }
             }
             .carrosel:nth-child(2){
@@ -79,6 +81,8 @@
                     position: relative;
                     left: 50%;
                     translate: -50%;
+                    width: 100%;
+                    border-radius: 30px;
                 }
             }
         }     
@@ -103,6 +107,8 @@
                 left: 50%;
                 translate: -50%;
                 border-radius: 30px;   
+                width: 100%;
+                border-radius: 30px;
                 }            
             }
         }        
@@ -143,6 +149,7 @@
                     left: 50%;
                     translate: -50%;
                     border-radius: 30px;        
+                    width: 100%;
 
                 }               
 
@@ -154,8 +161,11 @@
                     position: relative;
                     left: 50%;
                     translate: -50%;
-                    border-radius: 30px;        
-                }                           }
+                    border-radius: 30px;    
+                    width: 100%;
+
+                }   
+            }
         }   
 
         .scroll:nth-child(5){      
@@ -167,7 +177,9 @@
                     position: relative;
                     left: 50%;
                     translate: -50%;
-                    border-radius: 30px;        
+                    border-radius: 30px;      
+                    width: 100%;
+                    border-radius: 30px;  
                 }                     
             }
             .carrosel:nth-child(2){
@@ -178,8 +190,22 @@
                     left: 50%;
                     translate: -50%;
                     border-radius: 30px;        
-                }                                 }
+                    width: 100%;
+                }                               
+            }
         }   
+    }
+
+    @media (max-width: 1300px){
+        .galeria{
+            gap: 1em;
+            .scroll{
+                flex-grow: 1;
+            }
+            .scroll:nth-child(5){
+                display: none;
+            }
+        }
     }
 }    
        
