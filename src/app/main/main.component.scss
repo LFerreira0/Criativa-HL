@@ -62,7 +62,7 @@
     }
 
     @media (max-width: 1300px){
-        .conteudo{                        
+        .conteudo{                                  
             .marca{                
                 display: flex;
                 flex-direction: column;
@@ -70,7 +70,7 @@
 
                 img{
                     height: auto;
-                    width: 80%;
+                    width: 90%;
                 }
             }           
         }
@@ -79,6 +79,54 @@
 
 @media (max-width: 1000px){
     .container{
-        width: 100%;
+        main{
+            width: 100%;
+
+            .conteudo{
+                width: 90%;
+                margin: 0 auto;
+                height: 80%;
+                
+                .botao{
+                    width: 100%;                    
+                    display: flex;
+                    justify-content: center;
+                    button{
+                        margin-top: 4em;                    
+                    }
+                }
+                                
+                .marca{                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    h1{
+                        font-size: 40px;
+                        margin-bottom: 0px;
+                    }
+                    
+                    img{
+                        margin-top: 0;
+                    }         
+                }
+
+                hr{
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-top: 2em;
+                }
+
+                h2{
+                    margin-top: 3em;
+                    font-size: 20px;
+                    text-align: center;
+                    line-height: 2em;                
+                }
+
+            
+            }
+        }
+        
     }       
 }

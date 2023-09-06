@@ -80,7 +80,6 @@
                 text-shadow: #000;
                 text-shadow: 1px 1px #000;
 
-
                 h3{
                     margin-top: 2em;
                 }
@@ -91,9 +90,6 @@
             .card:nth-child(3){ background-color: #bfb0a3}
             .card:nth-child(4){ background-color: #595147}
             .card:nth-child(5){ background-color: #40372f}
-
-
-
         }
     }
 
@@ -102,8 +98,24 @@
                 .conteudo{
                     width: 50%;
                 }
+            }        
+    }
+
+    @media( max-width: 1050px){
+        .banner{
+            height: 100vh;
+            background-color: red;
+            img{
+                height: 100%;
             }
-        
+            .conteudo{
+                width: 100%;
+                background-color: blue;
+                h2:first-child{
+                    width: 60%;
+                }
+            }
+        }
     }
 }
 
