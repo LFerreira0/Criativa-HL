@@ -3,7 +3,7 @@
         <div class="logo">
             <img src="../../assets/images/CRIA.TIVA Logo Transparente.png" alt="logo criativa">
         </div>
-        <nav>
+        <nav *ngIf="active">
             <ul>
                 <li>Home</li>
                 <li>Sobre</li>
@@ -13,5 +13,13 @@
                 <li>Contato</li>
             </ul>
         </nav>
+        <div class="amburguer" (click)="amburguer()">
+            <div class="barra" [ngStyle]="
+            {
+                'transform': (active ? 'rotate(45deg)' : 'none')                
+            }"></div>
+            <div class="barra" [ngStyle]="{'display': (active? 'none': 'block')}"></div>
+            <div class="barra" [ngStyle]="{'transform': (active ? 'rotate(-45deg)' : 'none')}"></div>
+        </div>
     </header>
 </div>

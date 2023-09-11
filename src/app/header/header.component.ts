@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  active = false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  public amburguer(){
+    this.active = !this.active;    
+  }
 }
