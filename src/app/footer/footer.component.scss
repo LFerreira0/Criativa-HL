@@ -42,4 +42,21 @@ footer{
         }
 
     }
+
+    @media(max-width: 1000px){
+        margin-top: 0px;
+        .links{
+            flex-direction: column;            
+        }
+
+        .direitos-autorais{
+            margin-top: 1em;
+            width: 95%;
+           p{
+            font-size: 13px;
+            padding: 1em 0;
+            ;
+           }
+        }
+    }
 }
