@@ -97,22 +97,26 @@
             nav{
                 width: 100%;                                    
                 margin-top: -60px;
-                
+                background-color: #d9cdbf;
                 z-index: 5;
-                ul{
-                    
+                ul{                    
                     width: 100%;
                     display: flex;
                     flex-direction: column;
                     margin-top: 0px;
                     text-align: center;
-                    li{                        
-                        width: 100%;
-                        font-weight: bold;
+                    background-color: #d9cdbf;
+
+                    a{
                         background-color: #d9cdbf;
                     }
 
-                    li:hover{
+                    li{                        
+                        width: 100%;
+                        font-weight: bold;                        
+                    }
+
+                    a:hover{
                         background-color: #595147;
                         transition: .3s;
                         
