@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100&display=swap');
 footer{
-    height: 40vh;
+    height: 20vh;
     width: 100%;
     background-color: #595147;
     display: flex;
@@ -44,6 +44,7 @@ footer{
 
     @media(max-width: 1000px){
         margin-top: 0px;
+        height: 10vh;
         .links{
             flex-direction: column;            
         }
@@ -51,6 +52,7 @@ footer{
         .direitos-autorais{
             margin-top: 1em;
             width: 95%;
+            border: none;
            p{
             font-size: 13px;
             padding: 1em 0;
