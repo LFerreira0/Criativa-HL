@@ -3,7 +3,7 @@
         <div class="logo">
             <img src="../../assets/images/CRIA.TIVA Logo Transparente.png" alt="logo criativa">
         </div>
-        <nav *ngIf="active">
+        <nav *ngIf="active || this.viewSize > 1050">
             <ul>
                 <li>Home</li>
                 <li>Sobre</li>

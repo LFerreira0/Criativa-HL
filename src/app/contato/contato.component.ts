@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contato.component.scss']
 })
 export class ContatoComponent implements OnInit {
+  name!: string;
+
+  
 
   constructor() { }
 

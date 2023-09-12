@@ -11,10 +11,11 @@
         width: 65%;    
         margin: 0 auto;        
         display: flex;
-        align-items: center;        
+        align-items: center;    
+        border-bottom: 1px solid #595147;          
 
     .conteudo{
-        position: relative;
+        position: relative;        
         .marca{
             display: flex;
             img{

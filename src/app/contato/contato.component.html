@@ -8,13 +8,13 @@
                 <img src="../../assets/images/orcamento.png" alt="">
                 <h1>Orçamentos</h1>
                 <h4>Faça um orçamento</h4>                
-                <button>ORÇAMENTOS</button>
+               <a href="https://forms.gle/3Lhp3N2yYsCEXpKW8 " target="_blank"><button>ORÇAMENTOS</button></a> 
             </div>
             <div class="cards">
                 <img src="../../assets/images/bubble-chat.png" alt="">
                 <h1>Contate-nos</h1>
                 <h4>Agende um papo</h4>
-                <button>CONVERSE</button>
+                <a href=" https://calendly.com/estudiocria-tiva/iniciacao" target="_blank"><button>CONVERSE</button></a>
             </div>
             <div class="cards">
                 <img src="../../assets/images/social-media-marketing.png" alt="">
@@ -38,13 +38,15 @@
 
         <h2>Fale conosco</h2>
 
-        <form>
+        <form action="https://formspree.io/f/mgejzwnj" method="POST">
             <div class="campos">
-                <input type="text" id="fname" name="fname" placeholder="Nome*">
+                <input type="text" id="fname" name="fname" placeholder="Nome*" viewModel="name">
                 <input type="email" id="email" name="email" placeholder="Email*">
-                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Telefone*">   
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Telefone*">        
+                <input type="hidden" name="_next" value="">           
             </div>             
-            <textarea name="" id="" cols="30" rows="10" placeholder="Insira sua mensagem*"></textarea>                    
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Insira sua mensagem*"></textarea>                    
+            <button type="submit">Enviar</button>
         </form>
 
     

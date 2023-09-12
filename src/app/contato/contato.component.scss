@@ -107,6 +107,28 @@
                 padding: 1em 0.5em;
                 margin-bottom: 2em;                
             }
+
+            button{
+                width: 100%;
+                background-color: #595147;
+                color: #fff;
+                border: none;
+                padding: 1em;
+                margin-bottom: 2em;
+                border-radius: 5px;
+                font-size: 15px;
+            }
+
+            button:hover{
+                
+                cursor: pointer;
+                transition: 1s;
+            }
+
+            button:disabled {
+                opacity: 0.5;
+                cursor: no-drop;
+            }
         }
     }
 
@@ -137,7 +159,7 @@
                         margin-left: 2.5%;
                     }
                 }
-                textarea{
+                textarea, button{
                     width: 95%;
                     margin: 0 auto;
                     margin-top: 2em;

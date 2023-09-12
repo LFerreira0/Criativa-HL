@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   active = false;
+  viewSize!:  number;
   constructor() { }
 
   ngOnInit(): void {
+    this.viewSize = window.innerWidth;    
   }
 
   public amburguer(){

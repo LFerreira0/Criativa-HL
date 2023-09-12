@@ -17,7 +17,7 @@ import { FooterComponent } from './footer/footer.component';
     ServicosComponent,
     PortifolioComponent,
     ContatoComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule
