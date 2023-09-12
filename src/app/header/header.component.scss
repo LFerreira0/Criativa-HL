@@ -6,6 +6,7 @@
     flex-direction: row;    
     position: fixed;
     z-index: 99;
+    
 
     header{
         width: 65%;
@@ -38,6 +39,9 @@
                 display: flex;  
                 min-height: 100%;                              
                 width: 100%;
+                a{
+                    color: #000;
+                }
                 li{
                     display: inline;                                        
                     line-height: 70px;

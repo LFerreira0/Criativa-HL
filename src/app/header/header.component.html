@@ -5,12 +5,12 @@
         </div>
         <nav *ngIf="active || this.viewSize > 1050">
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Serviços</li>
-                <li>Clientes</li>
-                <li>Blog</li>
-                <li>Contato</li>
+                <a href="#"><li>Home</li></a>
+                <a href="#services"><li>Sobre</li></a>
+                <a href="#stack"><li>Serviços</li></a>
+                <a href="#portifolio"><li>Trabalhos</li></a>
+                <!-- <li>Blog</li> -->
+                <a href="#contato"><li>Contato</li></a>
             </ul>
         </nav>
         <div class="amburguer" (click)="amburguer()">
