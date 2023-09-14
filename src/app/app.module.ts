@@ -10,6 +10,8 @@ import { ContatoComponent } from './contato/contato.component';
 import { FooterComponent } from './footer/footer.component';
 import { register } from 'swiper/element/bundle';
 import { SwiperDirective } from 'src/shared/directives/swipper-directive';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 register();
 
@@ -26,10 +28,12 @@ register();
     ContatoComponent,
     FooterComponent,
     SwiperDirective,
-  
+  //Add if needed
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,//Add if needed 
+    FormsModule,   
   ],
   exports: [
     SwiperDirective,

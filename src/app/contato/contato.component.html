@@ -37,15 +37,16 @@
         <br><br>
         <h2>Fale conosco</h2>
         
-        <form action="https://formspree.io/f/mgejzwnj" method="POST">
+        <form [formGroup]="form">
             <div class="campos">
-                <input type="text" id="fname" name="fname" placeholder="Nome*" viewModel="name">
-                <input type="email" id="email" name="email" placeholder="Email*">
-                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Telefone*">        
-                <input type="hidden" name="_next" value="">           
+                <input type="text" id="name" name="fname" placeholder="Nome*" formControlName="name">
+                <input type="email" id="email" name="email" placeholder="Email*" formControlName="email">
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Telefone*" formControlName="phoneNumber">        
+                <input type="text" id="subject" name="subjact" placeholder="Assunto*" formControlName="subject">        
+                
             </div>             
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Insira sua mensagem*"></textarea>                    
-            <button type="submit">Enviar</button>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Insira sua mensagem*" formControlName="message"></textarea>                    
+            <button [disabled]="form.invalid" type="submit" (click)="sendEmail()">Enviar</button>
         </form>
 
     
